@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "C8_S3",
+            "program": "${workspaceFolder}/C8_Generics\\S3_Generics_for_classes.ts",
+            "outFiles": [
+                "${workspaceFolder}/JS/C8_Generics\\S3_Generics_for_classes.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "C7_Namespaces",
+            "program": "${workspaceFolder}/C7_Namespaces\\Test.ts",
+            "outFiles": [
+                "${workspaceFolder}/C7_Namespaces\\sample.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "C6_Simple_2_1",
+            "program": "${workspaceFolder}/C6_SimpleExample_2\\TestCalculator.ts",
+            "outFiles": [
+                "${workspaceFolder}/JS/C6_SimpleExample_2\\TestCalculator.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "C6_Simple_2_2",
+            "program": "${workspaceFolder}/C6_SimpleExample_2\\TestProgrammerCalculator.ts",
+            "outFiles": [
+                "${workspaceFolder}/JS/C6_SimpleExample_2\\TestProgrammerCalculator.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "C6_Simple_1",
+            "program": "${workspaceFolder}/C6_SimpleExample_1\\Test.ts",
+            "outFiles": [
+                "${workspaceFolder}/JS/C6_SimpleExample_1\\Test.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "C6_Module",
+            "program": "${workspaceFolder}/C6_Module\\S7_Imports.ts",
+            "outFiles": [
+                "${workspaceFolder}/JS/C6_Module\\S7_Imports.js"
+            ]
+        }
+    ]
+}
